@@ -151,7 +151,7 @@ function endGame() {
   }
 
   var game = document.getElementById('dodger');
-  while(game.children.length > 0){
+  while(game.children.length > 0 && game.children){
     game.firstChild.remove();
   }
   //rock.remove();
